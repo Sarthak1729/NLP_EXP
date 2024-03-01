@@ -1,15 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 pip install nltk
-
-
-# In[3]:
-
-
 import nltk
 nltk.download('punkt')  # Download the necessary NLTK data
 
@@ -43,10 +32,3 @@ print("Original Sentence:", sentence)
 print("\nPoS Tags:", pos_tags)
 print("\nChunked Sentence:")
 print(chunks)
-
-
-# In[ ]:
-
-
-
-
